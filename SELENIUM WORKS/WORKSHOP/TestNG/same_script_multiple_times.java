@@ -16,6 +16,11 @@ public class same_script_multiple_times
 		{
 			Reporter.log("bye",true);
 			
+			@Test
+		public void test3()
+		{
+			Reporter.log("pssed pull",true);
+			
 	}
 	}
 
