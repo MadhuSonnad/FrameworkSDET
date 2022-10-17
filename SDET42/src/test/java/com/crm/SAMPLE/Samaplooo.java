@@ -51,6 +51,7 @@ public class Samaplooo
 		 driver.findElement(By.id("submitButton")).click();
 		System.out.println("printed successfuly");
 		System.out.println("correct gitHub is pull & puss is pass");
+		System.out.println("Result is 100% pass both");
 		 
 	}
 	
