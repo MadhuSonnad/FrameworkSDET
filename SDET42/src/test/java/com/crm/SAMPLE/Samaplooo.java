@@ -49,6 +49,7 @@ public class Samaplooo
 		 driver.findElement(By.name("user_password")).sendKeys(PASSWORD);
 		 
 		 driver.findElement(By.id("submitButton")).click();
+		System.out.println("printed successfuly")
 		 
 	}
 	
