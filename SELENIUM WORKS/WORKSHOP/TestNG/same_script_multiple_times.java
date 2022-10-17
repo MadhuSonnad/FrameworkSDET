@@ -15,12 +15,20 @@ public class same_script_multiple_times
 		public void test2()
 		{
 			Reporter.log("bye",true);
-			
+		}
+		
 			@Test
 		public void test3()
 		{
 			Reporter.log("pssed pull",true);
+		}
 			
+			@Test
+			public void test4()
+			{
+				Reporter.log("pssed push",true);
+				
+		}
 	}
-	}
+	
 
