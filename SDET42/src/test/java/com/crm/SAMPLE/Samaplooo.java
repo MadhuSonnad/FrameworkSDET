@@ -52,6 +52,9 @@ public class Samaplooo
 		System.out.println("printed successfuly");
 		System.out.println("correct gitHub is pull & puss is pass");
 		System.out.println("Result is 100% pass both");
+		
+		System.out.println("Result is 1000000 both mbjdbjhbcjbjb");
+		
 		 
 	}
 	
