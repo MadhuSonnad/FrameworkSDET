@@ -26,8 +26,7 @@ public class same_script_multiple_times
 			@Test
 			public void test4()
 			{
-				Reporter.log("pssed push",true);
-				
+				Reporter.log("pssed push",true);	
 		}
 	}
 	
