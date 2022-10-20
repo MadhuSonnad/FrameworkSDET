@@ -15,6 +15,11 @@ public class Script1 {
 	public void test2()
 	{
 		Reporter.log("bye",true);
+	}
+	@Test
+	public void test3()
+	{
+		Reporter.log("Hey",true);
 		
 }
 }
