@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class testNg_priority {
 
 
-	@Test(priority=2)
+	@Test(priority=3)
 	public void test1()
 	{
 		Reporter.log("hello",true);
@@ -16,6 +16,13 @@ public class testNg_priority {
 	public void test2()
 	{
 		Reporter.log("bye",true);
+		
+        Test(priority=2)
+	public void test3()
+	{
+		Reporter.log("bye",hey);
+		
+}
 		
 }
 }
