@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[hello]]>
+    </line>
+    <line>
+      <![CDATA[bye]]>
+    </line>
+    <line>
+      <![CDATA[Hey]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110" started-at="2022-10-26T03:45:18Z" finished-at="2022-10-26T03:45:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="110" started-at="2022-10-26T03:45:18Z" finished-at="2022-10-26T03:45:18Z">
+      <class name="TestNG.Script1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestNG.Script1@66a3ffec]" name="test1" duration-ms="43" started-at="2022-10-26T09:15:18Z" finished-at="2022-10-26T09:15:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestNG.Script1@66a3ffec]" name="test2" duration-ms="0" started-at="2022-10-26T09:15:18Z" finished-at="2022-10-26T09:15:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[bye]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestNG.Script1@66a3ffec]" name="test3" duration-ms="15" started-at="2022-10-26T09:15:18Z" finished-at="2022-10-26T09:15:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hey]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestNG.Script1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

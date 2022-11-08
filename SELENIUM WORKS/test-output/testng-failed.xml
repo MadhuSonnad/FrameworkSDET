@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="FW.test1">
+        <methods>
+          <include name="login_FB"/>
+          <include name="close_appn"/>
+          <include name="open_appn"/>
+        </methods>
+      </class> <!-- FW.test1 -->
+      <class name="TestNG1.Assignment_amazon_sample">
+        <methods>
+          <include name="OpenApp"/>
+          <include name="login"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- TestNG1.Assignment_amazon_sample -->
+      <class name="TestNG1.Sample">
+        <methods>
+          <include name="CloseApplication"/>
+          <include name="OpenApplication"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNG1.Sample -->
+      <class name="POM.login_refresh_login">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- POM.login_refresh_login -->
+      <class name="TestNG1.Demo">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNG1.Demo -->
+      <class name="TestNG1.Demo1">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNG1.Demo1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
