@@ -18,7 +18,6 @@ public class testNg_priority
         @Test(priority=2)
 	public void test3()
 	{
-		Reporter.log("bye",false);		
+		Reporter.log("completed",true);		
 	}	
-}
 }
