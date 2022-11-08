@@ -8,6 +8,12 @@ public class TesterTest
 	public void methods()
 	{
 		System.out.println("verson waiting");
+		
+		@Test(groups={"smokeTest","regressionTest"}) 
+	public void methods1()
+	{
+		System.out.println("verson waiting is not completed");
+	}
 	}
 	}
 
